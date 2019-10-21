@@ -1,0 +1,69 @@
+{
+    "manifestVersion": 1,
+    "id": "codenames",
+    "publisher": "mard",
+    "version": "0.0.16",
+    "name": "Codenames",
+    "description": "Generate unique codenames for work items.",
+    "public": false,
+    "categories": [
+        "Azure Boards"
+    ],
+    "tags": [
+        "Work Item",
+        "Work Item control"
+    ],
+    "scopes": [
+        "vso.work"
+    ],
+    "targets": [
+        { "id": "Microsoft.VisualStudio.Services" }
+    ],
+    "icons": {
+        "default": "logo.png"
+    },
+    "branding": {
+        "color": "rgb(127, 0, 255)",
+        "theme": "dark"
+    },
+    "content": {
+        "details": {
+            "path": "README.md"
+        },
+        "license": {
+            "path": "LICENSE"
+        }
+    },
+    "files": [
+        {
+            "path": "dist",
+            "addressable": true
+        }
+    ],
+    "contributions": [
+        {  
+            "id": "sample-work-item-form-control",
+            "type": "ms.vss-work-web.work-item-form-control",
+            "description": "Custom work item form control",
+            "targets": [
+                "ms.vss-work-web.work-item-form"
+            ],
+            "properties": {
+                "name": "Codenames",
+                "uri": "dist/codenames/codenames.html",
+                "height": 250,
+                "inputs": [
+                    {
+                        "id": "FieldRefName",
+                        "description": "Reference name of the field to be updated.",
+                        "type": "WorkItemField",
+                        "validation": {
+                            "dataType": "String",
+                            "isRequired": true
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

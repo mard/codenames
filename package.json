@@ -1,0 +1,53 @@
+{
+  "name": "azure-devops-extension-sample",
+  "version": "1.0.3",
+  "description": "Sample Azure DevOps web extension",
+  "keywords": [
+    "extensions",
+    "Azure DevOps",
+    "Visual Studio Team Services"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Microsoft/azure-devops-extension-sample.git"
+  },
+  "scripts": {
+    "clean": "rimraf ./dist",
+    "compile": "npm run clean && webpack --mode production",
+    "compile:dev": "npm run clean && webpack --mode development",
+    "build": "npm run compile",
+    "build:dev": "npm run compile:dev && npm run postbuild",
+    "postbuild": "npm run package-extension -- --rev-version",
+    "package-extension": "tfx extension create --manifest-globs azure-devops-extension.json",
+    "publish-extension": "tfx extension publish --manifest-globs azure-devops-extension.json",
+    "publish": "npm run compile && tfx extension publish --manifest-globs azure-devops-extension.json --overrides-file configs/release.json --output-path out",
+    "publish:dev": "npm run compile:dev && tfx extension publish --manifest-globs azure-devops-extension.json --overrides-file configs/dev.json --output-path out",
+    "start:dev": "npm run compile && webpack-dev-server --mode development"
+  },
+  "dependencies": {
+    "azure-devops-extension-api": "~1.157.0",
+    "azure-devops-extension-sdk": "~2.0.11",
+    "azure-devops-ui": "~1.157.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.18",
+    "@types/react-dom": "^16.8.4",
+    "base64-inline-loader": "^1.1.1",
+    "copy-webpack-plugin": "^5.0.3",
+    "css-loader": "^2.1.1",
+    "file-loader": "^3.0.1",
+    "node-sass": "^4.12.0",
+    "rimraf": "^2.6.3",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "tfx-cli": "^0.7.5",
+    "ts-loader": "^6.0.1",
+    "typescript": "^3.4.5",
+    "webpack": "^4.32.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.4.1"
+  }
+}
