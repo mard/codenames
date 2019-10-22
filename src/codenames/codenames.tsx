@@ -63,7 +63,7 @@ class WorkItemFormGroupComponent extends React.Component<{},  WorkItemFormGroupC
       { this.state.info && <div><span>{this.state.info}</span></div> }
       <Button
         className="codenames-button"
-        text="🎲 Generate a codename"
+        text="🎲 Generate a code name"
         onClick={() => this.onClickSet()}
         disabled={this.state.isDisabled}
       />
