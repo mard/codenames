@@ -1,7 +1,7 @@
 {
-  "name": "azure-devops-extension-sample",
-  "version": "1.0.3",
-  "description": "Sample Azure DevOps web extension",
+  "name": "codenames-devops-extension",
+  "version": "1.0.0",
+  "description": "Azure DevOps extension for generating unique codenames for work items.",
   "keywords": [
     "extensions",
     "Azure DevOps",
@@ -10,19 +10,19 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Microsoft/azure-devops-extension-sample.git"
+    "url": "https://github.com/mard/codenames.git"
   },
   "scripts": {
     "clean": "rimraf ./dist",
     "compile": "npm run clean && webpack --mode production",
     "compile:dev": "npm run clean && webpack --mode development",
-    "build": "npm run compile",
-    "build:dev": "npm run compile:dev && npm run postbuild",
-    "postbuild": "npm run package-extension -- --rev-version",
+    "build": "npm run compile && npm run build-package -- --overrides-file configs/release.json",
+    "build:dev": "npm run compile:dev && npm run build-package -- --overrides-file configs/dev.json",
+    "build-package": "npm run package-extension -- --output-path out",
     "package-extension": "tfx extension create --manifest-globs azure-devops-extension.json",
     "publish-extension": "tfx extension publish --manifest-globs azure-devops-extension.json",
-    "publish": "npm run compile && tfx extension publish --manifest-globs azure-devops-extension.json --overrides-file configs/release.json --output-path out",
-    "publish:dev": "npm run compile:dev && tfx extension publish --manifest-globs azure-devops-extension.json --overrides-file configs/dev.json --output-path out",
+    "publish": "npm run compile && npm run publish-extension --overrides-file configs/release.json",
+    "publish:dev": "npm run compile:dev && npm run publish-extension --overrides-file configs/dev.json",
     "start:dev": "npm run compile && webpack-dev-server --mode development"
   },
   "dependencies": {

@@ -1,5 +1,6 @@
 {
   "id": "codenames-dev",
+  "name": "Codenames (dev)",
   "public": false,
   "baseUri": "https://localhost:3000"
 }

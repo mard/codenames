@@ -1,11 +1,8 @@
 {
     "manifestVersion": 1,
-    "id": "codenames",
     "publisher": "mard",
-    "version": "0.0.16",
-    "name": "Codenames",
+    "version": "0.0.20",
     "description": "Generate unique codenames for work items.",
-    "public": false,
     "categories": [
         "Azure Boards"
     ],
@@ -51,10 +48,10 @@
             "properties": {
                 "name": "Codenames",
                 "uri": "dist/codenames/codenames.html",
-                "height": 250,
+                "height": 36,
                 "inputs": [
                     {
-                        "id": "FieldRefName",
+                        "id": "CodenamesFieldName",
                         "description": "Reference name of the field to be updated.",
                         "type": "WorkItemField",
                         "validation": {
