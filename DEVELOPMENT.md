@@ -8,6 +8,7 @@ Based upon [these](https://github.com/microsoft/azure-devops-extension-hot-reloa
 * [Node.js](https://nodejs.org) and some packages:
   * [tfx-cli](https://www.npmjs.com/package/tfx-cli) `npm install -g tfx-cli`
   * [webpack](https://www.npmjs.com/package/webpack) `npm install -g webpack`
+  * [webpack-cli](https://www.npmjs.com/package/webpack-cli) `npm install -g webpack-cli`
   * [webpack-dev-server](https://www.npmjs.com/package/webpack-dev-server) `npm install -g webpack-dev-server`
 
 ## Setting up local development environment
