@@ -2,6 +2,7 @@ absolute
 aggressive
 agitated
 airborne
+albino
 amazing
 ancient
 angry
@@ -33,6 +34,7 @@ clumsy
 cold
 colorful
 complex
+confused
 controversial
 cool
 cosmic
@@ -55,6 +57,7 @@ delinquent
 diamond
 distracted
 domestic
+double
 drunk
 dry
 early
@@ -130,6 +133,7 @@ iron
 irrational
 jealous
 joyful
+jumping
 large
 last
 laughing
@@ -197,12 +201,14 @@ retired
 right
 rising
 robust
+rotten
 running
 rusty
 sad
 salty
 sarcastic
 scary
+screaming
 sea
 secret
 sensitive
@@ -253,6 +259,8 @@ tired
 toxic
 traditional
 travelling
+triple
+tropical
 trusty
 ugly
 ultimate
