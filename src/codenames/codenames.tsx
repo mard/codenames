@@ -17,8 +17,8 @@ export const getFetch = async (request: RequestInfo): Promise<any> => {
   });
 };
 
-function capitalizeFirstLetter(text:string) {
-  return text.charAt(0).toUpperCase() + text.slice(1);
+function toTitleCase(text:string) {
+  return text.split(' ').map((s) => s.charAt(0).toUpperCase() + s.substring(1)).join(' ');
 }
 
 function getRandomOfArray(items:string[]) {
@@ -108,8 +108,8 @@ class WorkItemFormGroupComponent extends React.Component<{},  WorkItemFormGroupC
   private async onClickSet() {
     if (this.state.fieldName)
     {
-      var wordFirst = capitalizeFirstLetter(getRandomOfArray(this.state.adjectives_verbs[0]));
-      var wordSecond = capitalizeFirstLetter(getRandomOfArray(this.state.nouns[0]));
+      var wordFirst = toTitleCase(getRandomOfArray(this.state.adjectives_verbs[0]));
+      var wordSecond = toTitleCase(getRandomOfArray(this.state.nouns[0]));
 
       workItemFormService.then(x => x.setFieldValue(this.state.fieldName, `${wordFirst} ${wordSecond}`));
     }
