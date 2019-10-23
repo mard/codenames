@@ -34,6 +34,10 @@
             "path": "LICENSE"
         }
     },
+    "repository": {
+        "type": "git",
+        "uri": "https://github.com/mard/codenames"
+    },
     "files": [
         {
             "path": "dist",
