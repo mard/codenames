@@ -17,7 +17,7 @@
         { "id": "Microsoft.VisualStudio.Services" }
     ],
     "icons": {
-        "default": "logo.png"
+        "default": "images/extension-icon.png"
     },
     "branding": {
         "color": "rgb(127, 0, 255)",
@@ -35,7 +35,10 @@
         {
             "path": "dist",
             "addressable": true
-        }
+        },
+        { "path": "images/extension-icon.png", "addressable": true },
+        { "path": "images/screenshot-01.png", "addressable": true },
+        { "path": "images/showcase.gif", "addressable": true }
     ],
     "contributions": [
         {  
