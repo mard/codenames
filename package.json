@@ -20,8 +20,8 @@
     "build:dev": "npm run compile:dev && npm run package-extension -- --overrides-file configs/dev.json",
     "package-extension": "tfx extension create --manifest-globs azure-devops-extension.json --output-path out",
     "publish-extension": "tfx extension publish --manifest-globs azure-devops-extension.json --output-path out",
-    "publish": "npm run compile && npm run publish-extension --overrides-file configs/release.json",
-    "publish:dev": "npm run compile:dev && npm run publish-extension --overrides-file configs/dev.json",
+    "publish": "npm run compile && npm run publish-extension -- --overrides-file configs/release.json",
+    "publish:dev": "npm run compile:dev && npm run publish-extension -- --overrides-file configs/dev.json",
     "start:dev": "npm run compile && webpack-dev-server --mode development"
   },
   "dependencies": {
