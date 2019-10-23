@@ -1,6 +1,6 @@
 {
   "name": "codenames-devops-extension",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Azure DevOps extension for generating unique codenames for work items.",
   "keywords": [
     "extensions",

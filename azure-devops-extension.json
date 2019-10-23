@@ -1,8 +1,8 @@
 {
     "manifestVersion": 1,
     "publisher": "mard",
-    "version": "0.0.20",
-    "description": "Generate unique codenames for work items.",
+    "version": "0.1.0",
+    "description": "Generates code names for work items.",
     "categories": [
         "Azure Boards"
     ],
