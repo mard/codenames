@@ -528,6 +528,7 @@ soul
 sound
 soup
 spaghetti
+spear
 speculation
 speed
 spell

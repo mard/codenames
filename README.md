@@ -23,6 +23,7 @@ Currently phrases are generated from a predefined pool of words. They were inspi
 
 * Fix missing description for custom control selection dropdown
 * Fix missing name for input parameter
+* Add some words
 
 ### 0.1.0
 
