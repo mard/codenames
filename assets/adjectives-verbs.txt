@@ -18,6 +18,7 @@ big
 bitter
 blessed
 blind
+blunt
 bored
 brave
 broken
@@ -28,6 +29,7 @@ calm
 careless
 cheeky
 chocolate
+circular
 clean
 clever
 clumsy
@@ -44,6 +46,7 @@ creepy
 cruel
 crying
 cuddly
+cunning
 curious
 cursed
 cute
@@ -54,6 +57,7 @@ dangerous
 dark
 deep
 delinquent
+devious
 diamond
 distracted
 domestic
@@ -66,6 +70,7 @@ empty
 endless
 evil
 excellent
+exhaustive
 extraterrestrial
 extreme
 fallen
@@ -139,6 +144,7 @@ last
 laughing
 lazy
 light
+lightweight
 little
 living
 long
@@ -209,6 +215,7 @@ salty
 sarcastic
 scary
 screaming
+scrutinous
 sea
 secret
 sensitive
@@ -243,6 +250,7 @@ subtle
 successful
 sudden
 superb
+superficial
 superior
 supreme
 suspicious

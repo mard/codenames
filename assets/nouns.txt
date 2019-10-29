@@ -24,6 +24,7 @@ banana
 banjo
 bank
 barbecue
+barber
 basketball
 bastard
 bat
@@ -38,6 +39,7 @@ bed
 bee
 beer
 beginning
+being
 belt
 bicycle
 birth
@@ -61,9 +63,11 @@ brush
 brutality
 bubble
 bucket
+buffet
 bull
 bulldozer
 burger
+bush
 butter
 butterfly
 cabbage
@@ -79,7 +83,9 @@ castle
 cat
 cave
 celebrity
+cell
 centipede
+centrifuge
 ceremony
 chair
 challenge
@@ -87,6 +93,7 @@ champion
 chaos
 chase
 cheese
+chemist
 chicken
 chocolate
 cigarette
@@ -159,6 +166,7 @@ drum
 duck
 dude
 duel
+dust
 dwarf
 eagle
 ear
@@ -174,6 +182,7 @@ euphoria
 evening
 evolution
 excuse
+exhaust
 eye
 face
 fact
@@ -215,6 +224,7 @@ frog
 frontier
 fun
 fungus
+funnel
 future
 galaxy
 game
@@ -274,6 +284,8 @@ house
 howl
 humor
 hunt
+hummus
+husk
 hustle
 hyena
 ice
@@ -284,6 +296,7 @@ illness
 illusion
 impression
 impulse
+infundibulum
 insanity
 island
 jacket
@@ -373,6 +386,7 @@ noise
 nose
 nostalgia
 notebook
+nucleus
 octopus
 onion
 optimism
@@ -405,6 +419,7 @@ pessimism
 philosophy
 phone
 photograph
+physicist
 piano
 pie
 pig
@@ -429,7 +444,9 @@ provocation
 pumpkin
 puppy
 pursuit
+quarter-pounder
 quest
+question
 rabbit
 raccoon
 radio
@@ -532,11 +549,15 @@ speculation
 speed
 spell
 spider
+spinner
+sun
 sponge
 spoon
 spring
+spruce
 squid
 squirrel
+scrub
 stadium
 stairs
 star
@@ -594,6 +615,7 @@ train
 trampoline
 trap
 trash
+traveler
 tree
 trick
 triumph
@@ -628,6 +650,7 @@ watermelon
 way
 werewolf
 whale
+whippersnapper
 whisper
 wind
 window
