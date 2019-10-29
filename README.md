@@ -10,7 +10,7 @@ They can be used as an alternative to work item IDs or titles, that are more tha
 
 ## How it works
 
-This extension adds a work item control with a button that generates a code name, then it updates the field that was configured in custom control options.
+This extension adds a work item control with a button that generates a code name, then it updates the field that was configured in custom control options. Boards and backlog lists can be updated afterwards to hide ID and show that field.
 
 Currently phrases are generated from a predefined pool of words. They were inspired by universally known things, beings and ideas, resulting in phrases that are fun and easy to remember.
 
@@ -22,12 +22,12 @@ Currently phrases are generated from a predefined pool of words. They were inspi
 
 ## Release notes
 
-### 0.1.1
+### 0.1.1 (2019-10-29)
 
 * Fix missing description for custom control selection dropdown
 * Fix missing name for input parameter
 * Add some words
 
-### 0.1.0
+### 0.1.0 (2019-10-23)
 
 * First published version
