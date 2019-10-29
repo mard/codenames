@@ -62,7 +62,8 @@
                 "inputs": [
                     {
                         "id": "CodenamesFieldName",
-                        "description": "Reference name of the field to be updated.",
+                        "name": "Field carrying a code name",
+                        "description": "Reference name of a string field to be updated.",
                         "type": "WorkItemField",
                         "validation": {
                             "dataType": "String",
