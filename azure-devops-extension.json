@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
     "publisher": "mard",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Generates code names for work items.",
     "categories": [
         "Azure Boards"
@@ -51,7 +51,7 @@
         {  
             "id": "sample-work-item-form-control",
             "type": "ms.vss-work-web.work-item-form-control",
-            "description": "Custom work item form control",
+            "description": "Updates a field with easy to remember code name",
             "targets": [
                 "ms.vss-work-web.work-item-form"
             ],

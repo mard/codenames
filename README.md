@@ -19,6 +19,10 @@ Currently phrases are generated from a predefined pool of words. They were inspi
 
 ## Release notes
 
+### 0.1.1
+
+* Fix missing description for custom control selection dropdown
+
 ### 0.1.0
 
 * First published version.
